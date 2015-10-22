@@ -2,10 +2,20 @@
   "name": "crawl-info",
   "version": "1.0.0",
   "description": "crawl info ========",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": [
+    "url",
+    "get url",
+    "title",
+    "html",
+    "crawl"
+  ],
+  "author": {
+    "name": "wfsovereign",
+    "email": "wfsovereign@outlook.com"
   },
-  "author": "",
-  "license": "ISC"
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "license": "MIT",
 }
